@@ -7,11 +7,7 @@
 
 function intParityCheck($num)
 {
-    if ($num % 2 == 0) {
-        return "even";
-    } else {
-        return "odd";
-    }
+    return ($num % 2 == 0) ? "even" : "odd";
 }
 
 echo "Number 11 is " . intParityCheck(11) . "\n";
